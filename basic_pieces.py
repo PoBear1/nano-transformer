@@ -111,3 +111,9 @@ class multihead_attention(nn.Module):
 		head_embedded = torch.matmul(softmaxed, v_embed)
 		# final output = n x output_size
 		return self.final_project(torch.reshape(torch.transpose(head_embedded, 0, 1), (self.v_size * self.num_heads, -1)))
+	
+class flash_attention(nn.Module):
+	def __init__(self, qk_embed_size: int, v_embed_size: int, query_size: int, key_size: int, value_size: int, output_size: int, num_heads: int, device: str = "cpu"):
+		pass
+	def forward(self, query: torch.Tensor, key: torch.Tensor, value: torch.Tensor) -> torch.Tensor:
+		pass
