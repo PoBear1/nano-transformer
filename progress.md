@@ -1,11 +1,14 @@
 # Transformer foundation model implementation progress
 
 - [X] Feedforward network
-- [ ] Attention mechanism
+- [X] Attention mechanism
+  - [X] QK/V Attention
+  - [X] QK/V Multihead Attention
 - [ ] Positional encoding
 - [ ] Mask attention head
 - [ ] Encoder (requires first three)
 - [ ] Decoder (requires first four)
-- [ ] Positional embedding
-- [ ] Learned positional embedding
+- [ ] Token embedding
+  - [ ] Learned tokem embedding
 - [ ] Training loop
+
