@@ -3,4 +3,4 @@ This is a re-implementation of the transformer architecture from the bottom - up
  - [Attention is all you need (2017), Vaswani et. al.](https://arxiv.org/abs/1706.03762)
  - [Probabilistic Machine Learning: An Introduction, Chapter 15 (2022), Murphy](https://probml.github.io/pml-book/book1.html)
 
-The rest of the code for token generation is from Karpathy's [nanochat](https://github.com/karpathy/nanochat) repo.
+The rest of the code for token generation is from Andrej Karpathy's [nanochat](https://github.com/karpathy/nanochat) repo.
