@@ -176,7 +176,7 @@ class decoder_layer(nn.Module):
 		layer2: torch.Tensor = layer1 + self.mlp(layer1)
 		return self.layernorm2(layer2)
 
-class encoder_layer(nn.Module):
+class encoder_decoder_layer(nn.Module):
 	def __init__(self, qk_embed_size: int, v_embed_size: int, token_size: int, context_size: int, num_heads: int, hidden_layers: int, device: str = "device") -> None:
 		self.masked_att: masked_attention = masked_attention(qk_embed_size, v_embed_size, token_size, token_size, token_size, token_size, num_heads, context_size, device)
 		self.multihead_att: multihead_attention = multihead_attention(qk_embed_size, v_embed_size, token_size, token_size, token_size, token_size, num_heads, device)
@@ -192,4 +192,14 @@ class encoder_layer(nn.Module):
 		layer3: torch.Tensor = layer2 + self.mlp(layer2)
 		return self.layernorm3(layer3)
 
-
+class encoder_layer(nn.Module):
+	def __init__(self, qk_embed_size: int, v_embed_size: int, token_size: int, context_size: int, num_heads: int, hidden_layers: int, device: str = "device") -> None:
+		self.multihead_att: masked_attention = masked_attention(qk_embed_size, v_embed_size, token_size, token_size, token_size, token_size, num_heads, device)
+		self.mlp: feedforward_block = feedforward_block(context_size, hidden_layers, device)
+		self.layernorm1: nn.LayerNorm = nn.LayerNorm((context_size, token_size))
+		self.layernorm2: nn.LayerNorm = nn.LayerNorm((context_size, token_size))
+	def forward(self, tokens: torch.Tensor) -> torch.Tensor:
+		atten: torch.Tensor = self.multihead_att(tokens, tokens, tokens)
+		layer1: torch.Tensor = self.layernorm1(atten + tokens)
+		layer2: torch.Tensor = layer1 + self.mlp(layer1)
+		return self.layernorm2(layer2)
