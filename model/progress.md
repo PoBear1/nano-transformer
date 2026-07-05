@@ -1,0 +1,22 @@
+# Progress checklist
+ - [ ] SSM
+	- [ ] Feature engineering (!) (depends on getting model #2 correct to be able to encode features correctly)
+	- [ ] Design SSM state update model
+	- [ ] Train SSM
+ - [ ] Model #2
+	- [ ] Pick model
+	- [ ] Design model
+	- [ ] Train after getting SSM working
+	- [ ] Combine
+ - [ ] Sentiment analysis
+	- [ ] Setting up LLM
+	- [ ] Finetune LLM on data
+	- [ ] Add pipeline
+ - [ ] Testing
+	- [ ] Pick portfolio of stocks
+	- [ ] Pick loss function
+	- [ ] Train and test
+ - [ ] Strategising
+	- [ ] Add in other features required for a market making algorithm
+	- [ ] Construct model
+	- [ ] Backtest strategy
