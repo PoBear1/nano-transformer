@@ -1,0 +1,119 @@
+<svg viewBox="0 0 1050 1830" xmlns="http://www.w3.org/2000/svg" font-family="Menlo, Consolas, 'Courier New', monospace">
+<rect x="0" y="0" width="1050" height="1830" fill="#6fa8dc"/>
+<defs>
+  <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M 0 0 L 10 5 L 0 10 z" fill="#2b2b2b"/>
+  </marker>
+  <marker id="arrowGrey" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+    <path d="M 0 0 L 10 5 L 0 10 z" fill="#b9c8d6"/>
+  </marker>
+</defs>
+<line x1="112" y1="1706" x2="112" y2="1148" stroke="#2b2b2b" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M 112 1706 C 112 1198.0, 202 1198.0, 202 698" fill="none" stroke="#2b2b2b" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="292" y1="1616" x2="292" y2="1598" stroke="#2b2b2b" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="292" y1="1526" x2="292" y2="1508" stroke="#2b2b2b" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="292" y1="1436" x2="292" y2="1418" stroke="#2b2b2b" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="292" y1="1346" x2="292" y2="1058" stroke="#2b2b2b" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M 382 1256 C 382 1153.0, 292 1153.0, 292 1058" fill="none" stroke="#2b2b2b" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M 382 1256 C 382 1243.0, 472 1243.0, 472 1238" fill="none" stroke="#2b2b2b" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M 472 1166 C 472 1108.0, 292 1108.0, 292 1058" fill="none" stroke="#2b2b2b" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="112" y1="1076" x2="112" y2="968" stroke="#2b2b2b" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M 292 986 C 292 973.0, 112 973.0, 112 968" fill="none" stroke="#2b2b2b" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="112" y1="896" x2="112" y2="878" stroke="#2b2b2b" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="112" y1="806" x2="112" y2="788" stroke="#2b2b2b" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="112" y1="716" x2="112" y2="608" stroke="#2b2b2b" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M 202 626 C 202 613.0, 112 613.0, 112 608" fill="none" stroke="#2b2b2b" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="112" y1="536" x2="112" y2="518" stroke="#2b2b2b" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="112" y1="446" x2="112" y2="428" stroke="#2b2b2b" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="112" y1="356" x2="112" y2="338" stroke="#2b2b2b" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="112" y1="266" x2="112" y2="248" stroke="#2b2b2b" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="112" y1="176" x2="112" y2="158" stroke="#2b2b2b" stroke-width="3" marker-end="url(#arrow)"/>
+<path d="M 652 1706 C 652 1378.0, 292 1378.0, 292 1058" fill="none" stroke="#b9c8d6" stroke-width="3" stroke-dasharray="2,6" marker-end="url(#arrowGrey)"/>
+<rect x="184" y="1722" width="73" height="32" rx="8" fill="#7ee08a" stroke="#2f8f4e" stroke-width="2"/>
+<text x="220.5" y="1744" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a1a">main*</text>
+<path d="M 182 1738 L 158 1738" stroke="#3fae7a" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="364" y="1564" width="205" height="32" rx="8" fill="#7ee08a" stroke="#2f8f4e" stroke-width="2"/>
+<text x="466.5" y="1586" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a1a">origin/vision_cnn</text>
+<path d="M 362 1580 L 338 1648" stroke="#3fae7a" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="368" y="1598" width="128" height="32" rx="8" fill="#7ee08a" stroke="#2f8f4e" stroke-width="2"/>
+<text x="432.0" y="1620" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a1a">vision_cnn</text>
+<path d="M 366 1614 L 338 1648" stroke="#3fae7a" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="372" y="1632" width="183" height="32" rx="8" fill="#7ee08a" stroke="#2f8f4e" stroke-width="2"/>
+<text x="463.5" y="1654" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a1a">ssm_autoencoder</text>
+<path d="M 370 1648 L 338 1648" stroke="#3fae7a" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="454" y="1272" width="128" height="32" rx="8" fill="#7ee08a" stroke="#2f8f4e" stroke-width="2"/>
+<text x="518.0" y="1294" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a1a">refs/stash</text>
+<path d="M 452 1288 L 428 1288" stroke="#3fae7a" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="184" y="1058" width="139" height="32" rx="8" fill="#7ee08a" stroke="#2f8f4e" stroke-width="2"/>
+<text x="253.5" y="1080" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a1a">origin/main</text>
+<path d="M 182 1074 L 158 1108" stroke="#3fae7a" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="188" y="1092" width="62" height="32" rx="8" fill="#7ee08a" stroke="#2f8f4e" stroke-width="2"/>
+<text x="219.0" y="1114" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a1a">list</text>
+<path d="M 186 1108 L 158 1108" stroke="#3fae7a" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="274" y="608" width="260" height="32" rx="8" fill="#7ee08a" stroke="#2f8f4e" stroke-width="2"/>
+<text x="404.0" y="630" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a1a">origin/flash_attention</text>
+<path d="M 272 624 L 248 658" stroke="#3fae7a" stroke-width="4" marker-end="url(#arrow)"/>
+<rect x="278" y="642" width="183" height="32" rx="8" fill="#7ee08a" stroke="#2f8f4e" stroke-width="2"/>
+<text x="369.5" y="664" text-anchor="middle" font-size="16" font-weight="bold" fill="#1a1a1a">flash_attention</text>
+<path d="M 276 658 L 248 658" stroke="#3fae7a" stroke-width="4" marker-end="url(#arrow)"/>
+<circle cx="112" cy="1738" r="32" fill="#8ee6b8" stroke="#3fae7a" stroke-width="4"/>
+<text x="112" y="1743" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a1a1a">3070532</text>
+<title>307053213edfc861659aea1527dc74e03c75e538: Merge branch 'flash_attention'</title>
+<circle cx="292" cy="1648" r="32" fill="#8ee6b8" stroke="#3fae7a" stroke-width="4"/>
+<text x="292" y="1653" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a1a1a">5484d34</text>
+<title>5484d343b265a2cc12eaeb892fcb86d858b0a326: Setup for new project that might work, or might not</title>
+<circle cx="292" cy="1558" r="32" fill="#8ee6b8" stroke="#3fae7a" stroke-width="4"/>
+<text x="292" y="1563" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a1a1a">e8e7cc8</text>
+<title>e8e7cc84cb3679e2c0be74aaa0a3332f92c2c232: Moving basic_pieces.py to chat</title>
+<circle cx="292" cy="1468" r="32" fill="#8ee6b8" stroke="#3fae7a" stroke-width="4"/>
+<text x="292" y="1473" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a1a1a">19cb44d</text>
+<title>19cb44d9133faf601baf50e96b4f32328da7e926: Renaming because vision should really just be a testing group for local compute power + gpu power, also adding in a file for a new large-scale project (!)</title>
+<circle cx="292" cy="1378" r="32" fill="#8ee6b8" stroke="#3fae7a" stroke-width="4"/>
+<text x="292" y="1383" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a1a1a">953fdf8</text>
+<title>953fdf84326dea0505f6e7018bb6f221709da7bd: More vision experiments!</title>
+<circle cx="382" cy="1288" r="32" fill="#8ee6b8" stroke="#3fae7a" stroke-width="4"/>
+<text x="382" y="1293" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a1a1a">192fb96</text>
+<title>192fb962e551cb965cc773d2b7fc28eed19e517b: WIP on vision_cnn: 212ca0c Adding some little vision experiments</title>
+<circle cx="472" cy="1198" r="32" fill="#8ee6b8" stroke="#3fae7a" stroke-width="4"/>
+<text x="472" y="1203" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a1a1a">99d3377</text>
+<title>99d337747a66265e19c16288583810042c245325: index on vision_cnn: 212ca0c Adding some little vision experiments</title>
+<circle cx="112" cy="1108" r="32" fill="#8ee6b8" stroke="#3fae7a" stroke-width="4"/>
+<text x="112" y="1113" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a1a1a">9816dbd</text>
+<title>9816dbdf90bb0ecc2c9a105e18bcf3f79367d6ed: Moving transformer model implementation into separate folder</title>
+<circle cx="292" cy="1018" r="32" fill="#8ee6b8" stroke="#3fae7a" stroke-width="4"/>
+<text x="292" y="1023" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a1a1a">212ca0c</text>
+<title>212ca0c8c9c396121694aa3dc791da034bc088fd: Adding some little vision experiments</title>
+<circle cx="112" cy="928" r="32" fill="#8ee6b8" stroke="#3fae7a" stroke-width="4"/>
+<text x="112" y="933" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a1a1a">bd9a3d0</text>
+<title>bd9a3d00006595a0ee51b58ccbbd402d9edc86e5: Finished all layers for final architecture combination</title>
+<circle cx="112" cy="838" r="32" fill="#8ee6b8" stroke="#3fae7a" stroke-width="4"/>
+<text x="112" y="843" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a1a1a">a153910</text>
+<title>a1539104ac6918c2cded5fab8ecd1cd78920ed96: Finished decoder + encoder layers</title>
+<circle cx="112" cy="748" r="32" fill="#8ee6b8" stroke="#3fae7a" stroke-width="4"/>
+<text x="112" y="753" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a1a1a">3f49b56</text>
+<title>3f49b56cc43a1addeabf0eefaea07a35949741f6: Adding masked attention</title>
+<circle cx="202" cy="658" r="32" fill="#8ee6b8" stroke="#3fae7a" stroke-width="4"/>
+<text x="202" y="663" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a1a1a">4a8f4e3</text>
+<title>4a8f4e38bbded39756063d5192d92e5298aa7818: Adding flash-attention for future implementation</title>
+<circle cx="112" cy="568" r="32" fill="#8ee6b8" stroke="#3fae7a" stroke-width="4"/>
+<text x="112" y="573" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a1a1a">1915abe</text>
+<title>1915abed43085e20d42d887d8f08c5f261171553: Completed attention mechanisms</title>
+<circle cx="112" cy="478" r="32" fill="#8ee6b8" stroke="#3fae7a" stroke-width="4"/>
+<text x="112" y="483" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a1a1a">db797be</text>
+<title>db797bed14c6ba7c7c9220247ed3594891bfbe84: Fixing README content oops</title>
+<circle cx="112" cy="388" r="32" fill="#8ee6b8" stroke="#3fae7a" stroke-width="4"/>
+<text x="112" y="393" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a1a1a">13b7692</text>
+<title>13b7692aa1da079fb0c9538d546eb20f401e9e87: Fixing README formatting + content oops</title>
+<circle cx="112" cy="298" r="32" fill="#8ee6b8" stroke="#3fae7a" stroke-width="4"/>
+<text x="112" y="303" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a1a1a">d474f99</text>
+<title>d474f9936e580c96db36e0fffd9267fcdf1447cb: Fixing README formattin</title>
+<circle cx="112" cy="208" r="32" fill="#8ee6b8" stroke="#3fae7a" stroke-width="4"/>
+<text x="112" y="213" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a1a1a">75e9ff8</text>
+<title>75e9ff88727d3672991c52a7569e7e973c2ac53c: Adding README</title>
+<circle cx="112" cy="118" r="32" fill="#8ee6b8" stroke="#3fae7a" stroke-width="4"/>
+<text x="112" y="123" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a1a1a">51dc7ce</text>
+<title>51dc7ce405f7c25bfe25a1471d7839d511d222fd: First commit</title>
+<circle cx="652" cy="1738" r="32" fill="#9fb6c9" stroke="#7f97ab" stroke-width="4"/>
+<text x="652" y="1743" text-anchor="middle" font-size="14" font-weight="bold" fill="#1a1a1a">ed529b4</text>
+<title>ed529b4e49b63d053b33a985d8aa628c7ddd0bb7: WIP on vision_cnn: 212ca0c Adding some little vision experiments</title>
+</svg>
